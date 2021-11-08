@@ -110,7 +110,7 @@
       skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from 
       discussion and collaboration.</p><br>
 
-           <a href="#" class="button-light px-3 text-center">More Info </a>
+           <a href="#" class="btn btn px-3 text-center">More Info </a>
       </div>
 
   </div>
@@ -249,21 +249,29 @@
 <div class="col pt-5">
 <p>Please fill out the form on this section to contact with me. Or call between 8:00 a.m. and 8:00 p.m. ET,
    Monday through Friday</p>
-<form class="container">
-<div class="form-group">
-  
-  <div class="row"><input type="text" class="form-control" id="fname" name="firstname" placeholder="Full Name"></div><br>
-  <div class="row"><input type="text" class="form-control" id="eemail" name="email" placeholder="Enter your email"></div><br>
-  <div class="row"><input type="text" class="form-control" id="ssubject" name="subject" placeholder="Subject"></div><br>
+   <div class="card-body">
+    <form>
+     <div class="from-group mb-2">
+            <label for="name" class="from-label">Enter your name</label>
+            <input type="text" class="form-control" placeholder="Full Name" autofocus recquired>
+       </div>
+    <!--Email-->
+    <div class="form-group mb-2">
+        <label for="Email Address"> Enter your Email Address</label>
+        <input type="text" class="form-control" placeholder="example@mail.com" recquired>
 
-  <div class="form-floating">
-    <textarea class="form-control" placeholder="Write your feedback here" id="floatingTextarea1" style="height: 100px">
-    </textarea>
-  </div>
-  
-</div><br><br><br>
-<button class="f-btn btn" type="submit">Send Message</button>
-</form>
+    </div>
+     <div class="form-group mb-2">
+         <label for="Subject">Enter Subject</label>
+         <input type="text" class="form-control" placeholder="Subject" recquired>
+        </div>
+        <div class="form-group mb-3">
+            <label for="message">Message</label>
+            <textarea class="form-control" rows="5" placeholder= "Type your Message here"></textarea>
+        </div>
+        <button class="btn btn" type="submit">Send Message</button>
+    </form>
+</div>
 </div>
 
 <div class="col">
@@ -277,7 +285,7 @@ src="https://maps.google.com/maps?q=umoja%202&t=k&z=13&ie=UTF8&iwloc=&output=emb
 </div>
 
 </section>
-<footer class="container-fluid py-4 last">
+<footer class="container-fluid py-4 foot">
 <div class="row py-5">
  <div class="col-lg-3">
   <p>NANGO'S<br>PORTFOLIO</p>
@@ -293,7 +301,7 @@ src="https://maps.google.com/maps?q=umoja%202&t=k&z=13&ie=UTF8&iwloc=&output=emb
   
 </div>
 <div class="col-lg-3">
-  
+  <p>Get Tillien on Social media:</p>
   <a href="https://www.facebook.com/tillien.nango"><i class="fab fa-facebook-f"></i></a> 
   <a href="https://twitter.com/Nangoz007?t=xjOQpF85I9yMhEzDBblkjw&s=09"><i class="fab fa-twitter"></i></a> 
   <a href="https://wa.me/254723412040"><i class="fab fa-whatsapp"></i></a> 
@@ -301,21 +309,7 @@ src="https://maps.google.com/maps?q=umoja%202&t=k&z=13&ie=UTF8&iwloc=&output=emb
 </div>
 </div>
 
-
 </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
